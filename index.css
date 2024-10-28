@@ -1,0 +1,85 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+nav {
+    display: flex;
+    background-color: rgb(29, 29, 201);
+    padding: 0;
+    width: 1920px;
+    height: 70px;
+    padding: 0, 0px;
+    
+  }
+.imagen {
+    border-radius: 20px;
+    width: 60px;
+    height: 60px;
+    margin: 5px;
+}
+.lista {
+    list-style: none;  /* Elimina los puntos de la lista */
+    padding: 0;        /* Elimina el padding predeterminado del <ul> */
+    margin: 0;
+    margin-left: 350px;
+    margin-top: 50px;
+    display: flex;     /* Pone los elementos en línea horizontal */
+  
+    
+}
+nav button {
+    height: 30px;              /* Ajusta la altura */
+    width: 100px;              /* Ajusta el ancho */
+    margin-top: 39px;
+    margin-left: 200px;
+
+    border-radius: 20px;
+    display: flex;             /* Para centrar con flexbox */
+    align-items: center;       /* Centra verticalmente */
+    justify-content: center;   /* Centra horizontalmente */
+    border: none;
+    cursor: pointer;
+}
+
+nav button a {
+    text-decoration: none; /* Elimina el subrayado */
+    color: black;          /* Texto blanco */
+    font-size: 15px;       /* Tamaño del texto */
+    font-weight: bold;
+}
+nav button:hover {
+    background-color: grey;
+}
+nav ul li {
+    margin: 0, 0; /* Ajusta el espacio entre los elementos */
+}
+
+  .title {
+    margin-top: 15px;
+    margin-left: 0px;
+    font-size: 30px;
+    color: #fff;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5); /* Sombra negra suave */
+    margin-right: auto, 0;
+}
+.parrafo1 {
+    display: flex;
+    margin-top: 45px;
+    margin-left: -320px;
+    color: #fff;
+    font-size: 12px;
+    letter-spacing: 0.5px;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5); /* Sombra negra suave */
+}
+  
+  .carousel {
+    display: flex;
+    overflow-x: scroll;
+  }
+  
+  .carousel img {
+    max-width: 100%;
+    height: auto;
+    margin-right: 10px;
+  }
+  

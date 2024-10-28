@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dirección de Suelo Urbano</title>
+  <link rel="stylesheet" href="index.css" />
+</head>
+<body>
+  <nav class="nave">
+    <a href=""><img class="imagen" src="./assets/logomuni.png" alt="logomuni"></a>
+      <h1 class="title">Dirección de Suelo Urbano</h1>
+      <p class="parrafo1">Secretaría de Economía - Municipalidad de la Capital</p>
+      <button ><a href="">Inicio</a></button>
+      <button><a href="">Trámites</a></button>
+      <button><a href="">Contacto</a></button>
+  </nav>
+    
+  
+
+  <section id="tramites">
+    <h2>Trámites</h2>
+    <button onclick="descargarPDF('tramite1.pdf')">Trámite 1</button>
+    <button onclick="descargarPDF('tramite2.pdf')">Trámite 2</button>
+  </section>
+
+  <section id="galeria">
+    <h2>Galería</h2>
+    <div class="carousel">
+      <img src="imagen1.jpg" alt="Imagen 1" />
+      <img src="imagen2.jpg" alt="Imagen 2" />
+      <img src="imagen3.jpg" alt="Imagen 3" />
+    </div>
+  </section>
+
+  <section id="contacto">
+    <h2>Contacto</h2>
+    <form id="contactForm">
+      <input type="text" placeholder="Nombre" required />
+      <input type="email" placeholder="Correo" required />
+      <textarea placeholder="Mensaje" required></textarea>
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
