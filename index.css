@@ -1,21 +1,30 @@
 body {
     padding: 0;
     margin: 0;
+    background-color: rgba(141, 138, 138, 0.2);
 }
 nav {
     display: flex;
-    background-color: rgb(29, 29, 201);
+    background-color: rgba(29, 29, 201, 0.8);
     padding: 0;
     width: 1920px;
     height: 70px;
     padding: 0, 0px;
     
   }
+nav a {
+  text-decoration: none;
+}
 .imagen {
     border-radius: 20px;
-    width: 60px;
-    height: 60px;
+    width: 50px;
+    height: 50px;
     margin: 5px;
+    margin-top: 10px;
+}
+ul li img {
+  width: 300px;
+  height: 400px;
 }
 .lista {
     list-style: none;  /* Elimina los puntos de la lista */
@@ -27,6 +36,7 @@ nav {
   
     
 }
+
 nav button {
     height: 30px;              /* Ajusta la altura */
     width: 100px;              /* Ajusta el ancho */
@@ -43,6 +53,7 @@ nav button {
 
 nav button a {
     text-decoration: none; /* Elimina el subrayado */
+    list-style: none;
     color: black;          /* Texto blanco */
     font-size: 15px;       /* Tamaño del texto */
     font-weight: bold;
@@ -55,7 +66,7 @@ nav ul li {
 }
 
   .title {
-    margin-top: 15px;
+    margin-top: 10px;
     margin-left: 0px;
     font-size: 30px;
     color: #fff;
@@ -64,7 +75,7 @@ nav ul li {
 }
 .parrafo1 {
     display: flex;
-    margin-top: 45px;
+    margin-top: 40px;
     margin-left: -320px;
     color: #fff;
     font-size: 12px;
@@ -72,14 +83,16 @@ nav ul li {
     text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5); /* Sombra negra suave */
 }
   
-  .carousel {
-    display: flex;
-    overflow-x: scroll;
-  }
-  
-  .carousel img {
-    max-width: 100%;
-    height: auto;
-    margin-right: 10px;
-  }
-  
+.swiffy-slider {
+  width: 100%;
+  overflow: hidden;
+}
+
+.slider-container img {
+  display: block;
+  margin: auto;
+}
+
+.carrusel {
+  margin-top: 200px;
+}

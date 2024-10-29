@@ -4,7 +4,10 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Dirección de Suelo Urbano</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <link rel="stylesheet" href="index.css" />
+  <script src="https://cdn.jsdelivr.net/npm/swiffy-slider@1.6.0/dist/js/swiffy-slider.min.js" crossorigin="anonymous" defer></script>
+<link href="https://cdn.jsdelivr.net/npm/swiffy-slider@1.6.0/dist/css/swiffy-slider.min.css" rel="stylesheet" crossorigin="anonymous">
 </head>
 <body>
   <nav class="nave">
@@ -15,9 +18,25 @@
       <button><a href="">Trámites</a></button>
       <button><a href="">Contacto</a></button>
   </nav>
-    
+  
+  <section class="carrusel">
+    <div class="swiffy-slider slider-nav-round slider-nav-dark slider-nav-visible slider-nav-autoplay" data-slider-nav-autoplay-interval="3000">
+      <ul class="slider-container">
+        <li><img src="./assets/parquea.jpg" style="max-width: 100%; height: auto;"></li>
+        <li><img src="./assets/suelo.jpg" style="max-width: 100%; height: auto;"></li>
+        <li><img src="./assets/logomuni.png" style="max-width: 100%; height: auto;"></li>
+      </ul>
   
 
+
+  
+      <div class="slider-indicators">
+        <button class="active"></button>
+        <button></button>
+        <button></button>
+      </div>
+    </div>
+  </section>
   <section id="tramites">
     <h2>Trámites</h2>
     <button onclick="descargarPDF('tramite1.pdf')">Trámite 1</button>
