@@ -14,34 +14,48 @@
     <a href=""><img class="imagen" src="./assets/logomuni.png" alt="logomuni"></a>
       <h1 class="title">Dirección de Suelo Urbano</h1>
       <p class="parrafo1">Secretaría de Economía - Municipalidad de la Capital</p>
-      <button ><a href="">Inicio</a></button>
-      <button><a href="">Trámites</a></button>
-      <button><a href="">Contacto</a></button>
-  </nav>
-  
-  <section class="carrusel">
-    <div class="swiffy-slider slider-nav-round slider-nav-dark slider-nav-visible slider-nav-autoplay" data-slider-nav-autoplay-interval="3000">
-      <ul class="slider-container">
-        <li><img src="./assets/parquea.jpg" style="max-width: 100%; height: auto;"></li>
-        <li><img src="./assets/suelo.jpg" style="max-width: 100%; height: auto;"></li>
-        <li><img src="./assets/logomuni.png" style="max-width: 100%; height: auto;"></li>
-      </ul>
-  
-
-
-  
-      <div class="slider-indicators">
-        <button class="active"></button>
-        <button></button>
-        <button></button>
+      <div class="listanave">
+        <a class="listaNav" href="">Inicio</a>
+        <a class="listaNav" href="#tramites">Trámites</a>
+        <a class="listaNav" href="">Contacto</a>
       </div>
-    </div>
-  </section>
-  <section id="tramites">
-    <h2>Trámites</h2>
-    <button onclick="descargarPDF('tramite1.pdf')">Trámite 1</button>
-    <button onclick="descargarPDF('tramite2.pdf')">Trámite 2</button>
-  </section>
+    </nav>
+
+  
+    <section class="carrusel-contenido">
+      <div class="texto-lateral">
+        <h2>Nuestro servicio a la comunidad</h2>
+        <p>
+          Nuestra misión es gestionar y promover el desarrollo del suelo urbano 
+          para garantizar un crecimiento sostenible y equitativo de la ciudad. 
+          Consulte los trámites disponibles o explore nuestras opciones.
+        </p>
+      </div>
+    
+      <div class="carrusel">
+        <div class="swiffy-slider slider-nav-round slider-nav-dark slider-nav-visible slider-nav-autoplay" 
+             data-slider-nav-autoplay-interval="3000">
+          <ul class="slider-container">
+            <li><img src="./assets/michi1.jpg" style="max-width: 100%; height: auto;"></li>
+            <li><img src="./assets/suelo.jpg" style="max-width: 100%; height: auto;"></li>
+            <li><img src="./assets/logomuni.png" style="max-width: 100%; height: auto;"></li>
+          </ul>
+    
+          <div class="slider-indicators">
+            <button class="active"></button>
+            <button></button>
+            <button></button>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section id="tramites" class="section1">
+      <h2>Trámites</h2>
+      <button onclick="descargarPDF('tramite1.pdf')">Trámite 1</button>
+      <button onclick="descargarPDF('tramite2.pdf')">Trámite 2</button>
+    </section>
+    
 
   <section id="galeria">
     <h2>Galería</h2>
@@ -61,6 +75,30 @@
       <button type="submit">Enviar</button>
     </form>
   </section>
+
+  <div class="banner-contenedor">
+    <div class="texto-lateral">
+      <h2>Bienvenido a Nuestro Sitio</h2>
+      <p>Explora nuestros servicios y descubre todo lo que tenemos para ofrecerte. Conoce más sobre nuestros trámites y servicios disponibles.</p>
+    </div>
+  
+    <div class="carrusel">
+      <div class="swiffy-slider slider-nav-round slider-nav-dark slider-nav-visible slider-nav-autoplay" data-slider-nav-autoplay-interval="3000">
+        <ul class="slider-container">
+          <li><img src="./assets/michi1.jpg" alt="Michi 1"></li>
+          <li><img src="./assets/suelo.jpg" alt="Suelo"></li>
+          <li><img src="./assets/logomuni.png" alt="Logo Municipalidad"></li>
+        </ul>
+  
+        <div class="slider-indicators">
+          <button class="active"></button>
+          <button></button>
+          <button></button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
 
   <script src="scripts.js"></script>
 </body>
